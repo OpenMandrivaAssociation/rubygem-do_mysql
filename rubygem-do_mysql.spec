@@ -11,6 +11,7 @@ License:	GPLv2+ or Ruby
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:	ruby-devel
+BuildRequires:	mysql-devel
 BuildRequires:	rubygem(rake)
 
 %description
