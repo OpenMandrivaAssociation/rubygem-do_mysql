@@ -47,3 +47,16 @@ Documents, RDoc & RI documentation for %{name}.
 %{ruby_gemdir}/doc/%{rbname}-%{version}
 %{ruby_gemdir}/gems/%{rbname}-%{version}/*.markdown
 %{ruby_gemdir}/gems/%{rbname}-%{version}/LICENSE
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.10.7-3
++ Revision: 774501
+- drop dependency on rake, it's now provided by ruby's standard library
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Tue Jan 24 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.10.7-1
++ Revision: 767881
+- BR:mysql-devel
+- imported package rubygem-do_mysql
+
