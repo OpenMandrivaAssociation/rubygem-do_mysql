@@ -36,10 +36,10 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/do_mysql
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/do_mysql/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/do_mysql
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/do_mysql/*.rb
 %{ruby_sitearchdir}/%{rbname}/do_mysql.so
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 %{_datadir}/gems/doc/do_mysql-0.10.14/rdoc/ChangeLog_markdown.html
@@ -112,15 +112,15 @@ Documents, RDoc & RI documentation for %{name}.
 %{_datadir}/gems/doc/do_mysql-0.10.14/ri/page-LICENSE.ri
 %{_datadir}/gems/doc/do_mysql-0.10.14/ri/page-README_markdown.ri
 %{_datadir}/gems/gems/do_mysql-0.10.14/ChangeLog.markdown
-%{_datadir}/gems/gems/do_mysql-0.10.14/LICENSE
+# %{_datadir}/gems/gems/do_mysql-0.10.14/LICENSE
 %{_datadir}/gems/gems/do_mysql-0.10.14/README.markdown
 %{_datadir}/gems/gems/do_mysql-0.10.14/lib/do_mysql.rb
 %{_datadir}/gems/gems/do_mysql-0.10.14/lib/do_mysql/encoding.rb
 %{_datadir}/gems/gems/do_mysql-0.10.14/lib/do_mysql/transaction.rb
 %{_datadir}/gems/gems/do_mysql-0.10.14/lib/do_mysql/version.rb
-%{_datadir}/gems/specifications/do_mysql-0.10.14.gemspec
+# %{_datadir}/gems/specifications/do_mysql-0.10.14.gemspec
 
 %files doc
 %{ruby_gemdir}/doc/%{rbname}-%{version}
 %{ruby_gemdir}/gems/%{rbname}-%{version}/*.markdown
-%{ruby_gemdir}/gems/%{rbname}-%{version}/LICENSE
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/LICENSE
